@@ -1,0 +1,68 @@
+/* Header section style */
+header{
+     background-image: url("images/banner/banner1.png");
+     /* width: 1400px; */
+     /* height: 100%; */
+     display: flex;
+     background-repeat: no-repeat;
+      width: 1400px;
+     height: 800px;
+     /* flex-shrink: 0; */
+
+}
+.text{
+     color: rgb(235, 87, 29);
+}
+.headr-title{
+     color:  #151414;
+     text-align: right;
+     font-family: "Work Sans";
+     font-size: 65px;
+     /* font-style: normal; */
+     font-weight: 700;
+     /* line-height: normal; */
+     width: 530px;
+}
+.header-section{
+    margin: 215px 230px 360px 745px;
+}
+.headr-dis{
+     color: #444343;
+     text-align: right;
+     font-family: "Work Sans";
+     font-size: 20px;
+     font-weight: 400px;
+}
+.btn-primary{
+     margin-left: 420px;
+      /* border-radius: 5px; */
+     background: #F15B22;
+     width: 100px;
+     height: 44px;
+     color: #FFF;
+     text-align: center;
+     font-family: "Work Sans";
+     font-size: 15px;
+     font-weight: 600;
+     
+}
+/* main section style */
+.img-section{
+     margin: 50px 80px 20px 200px;
+}
+.main-section{
+     display: flex;
+}
+.main-dis{
+     margin: 300px 32px 70px 30px;
+
+}
+.text-dis{
+     color: #151414;
+     font-family: "Work Sans";
+     font-size: 40px;
+     width: 280px;
+     font-weight: 700;
+     line-height: normal;
+
+}
