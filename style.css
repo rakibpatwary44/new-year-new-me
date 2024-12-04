@@ -166,15 +166,75 @@ header{
      font-weight: 600;
      line-height: normal;
 }
+
+/* footer section style */
 footer{
      background-color: #151414;
      width: 1400px;
-     height: 500px;
+     height: 400px;
      flex-shrink: 0;
+     display: flex;
+     padding: 120px 200px;
+     
+}
+.btn-primary-sub{
+     color: #F15B22;
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     background: #FFF;
+     /* width: 170.106px;
+     height: 64px; */
+     padding: 10px 20px;
+     margin-top: 20px;
+     flex-shrink: 0;
+     border-radius: 5px;
+
+}
+.footer-dis{
+     width: 470px;
+     height: 70px;
+     color: #FFF;
+     font-family: "Work Sans";
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px; /* 162.5% */
+}
+.footer-title{
+     color: #F8F8F8;
+     font-family: "Work Sans";
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
 }
 .footer-style{
-     display: flex;
+     width: 50%;
+}
+.addess-title{
      color: #FFF;
-     
-     justify-content: space-evenly;
+     font-family: "Work Sans";
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px; 
+}
+.social-icon{
+     width: 150px;
+     height: 35px;
+     flex-shrink: 0;
+}
+.footer-style input{
+     width: 250px;
+     height: 44px;
+     flex-shrink: 0;
+     border: 1px solid wheat;
+     border-radius: 8px;
+     background-color: #151414;
+}
+.btn-primary-sub{
+
 }
