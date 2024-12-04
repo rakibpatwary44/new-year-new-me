@@ -49,6 +49,7 @@ header{
 /* main section style */
 .img-section{
      margin: 50px 80px 20px 200px;
+     /* background-image:  */
 }
 .main-section{
      display: flex;
@@ -62,7 +63,118 @@ header{
      font-family: "Work Sans";
      font-size: 40px;
      width: 280px;
+     /* height: 100px; */
      font-weight: 700;
      line-height: normal;
 
+}
+.text-configer{
+     width: 415px;
+     color: #444343;
+     font-family: "Work Sans";
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px; /* 162.5% */
+}
+.bullet-point{
+     color:  #444343;
+     font-family: "Work Sans";
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px; /* 162.5% */
+     text-decoration: none;
+     list-style-type: none;
+     margin-bottom: 10px;
+     text-align: left;
+}
+
+/* plane section style */
+.plane-title{
+     text-align: center;
+     color: #151414;
+          font-family: "Work Sans";
+          font-size: 40px;
+          font-weight: 700;
+
+}
+.icon-styles{
+     display: flex;
+     justify-content: space-around;
+}
+.icon-section{
+     /* margin-left: 30px; */
+}
+.icon-styles h3{
+     color: #151414;
+     text-align: center;
+     font-family: "Work Sans";
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     margin-bottom: 20px;
+}
+.icon-styles p{
+     color: #737272;
+     text-align: center;
+     font-family: "Work Sans";
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin-top: 10px;
+
+}
+.icon-styles img{
+     margin-left: 30px;
+     width: 100px;
+     height: 100px;
+     
+}
+.last-img-section{
+     margin:  50px 130px;
+     background-image: url(images/watch.png);
+     width: 1140px;
+     height: 300px;
+     flex-shrink: 0;
+}
+.last-img-text{
+     width: 459px;
+     margin: 60px 615pc 115px 50px;
+     color: #F15B22;
+     font-family: "Work Sans";
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     
+     position: absolute;
+}
+.btn-primary-call{
+     margin: 177px 915px 60px 50px;
+     width: 140px;
+     height: 50px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background: #FFF;
+     color: #F15B22;
+     text-align: center;
+     font-family: "Work Sans";
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+footer{
+     background-color: #151414;
+     width: 1400px;
+     height: 500px;
+     flex-shrink: 0;
+}
+.footer-style{
+     display: flex;
+     color: #FFF;
+     
+     justify-content: space-evenly;
 }
